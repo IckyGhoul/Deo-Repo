@@ -1,0 +1,254 @@
+body{
+    padding:0;
+    margin:0;
+}
+.box1{
+    height: 0px;
+    /*border:solid;
+    border-color:black;
+    border-width:5px;*/
+    padding-bottom:0;
+    margin-bottom:0;
+}
+#name{
+    float:left;
+    background-color:#aa4a4a;
+    /*border:solid;
+    border-color:black;
+    border-width:5px;*/
+    margin-bottom:0;
+    margin-top: 0;
+    margin-left: 230px;
+    margin-right: 320px;
+    padding:22px;
+    color: white;
+    
+}
+ul{
+    float: left;
+    list-style-type: none;
+    margin:0px
+}
+li{
+    display:inline-block;
+    padding:17px;
+   /* border:solid;
+    border-color:black;
+    border-width:5px;*/
+    margin-top: 9px;
+    margin-left:15px;
+}
+#about,
+#portfolio,
+#contact{
+    color: #777777;
+    text-decoration:none;
+    font-size: 20px
+}
+.box2{
+    border-bottom:solid;
+   /* border-color:red;*/
+    border-bottom-color: #aa4a4a;
+    border-bottom-width: 10px;
+    height:600px;
+    clear: both;
+    padding-bottom:20px;
+    margin-top:0;
+    background-image:url("https://orig00.deviantart.net/bda5/f/2011/127/7/2/synergy_by_m3_f-d30389c.jpg")
+    
+    
+}
+.innerbox{
+    /*border:solid;
+    border-color:black;
+    border-width:5px;*/
+    height:615px;
+    width:60px;
+    margin-right:40px;
+    margin-left:230px;
+    margin-top:40px;
+    margin-bottom:40px;
+    float: left;
+    color:#aa4a4a;
+    background-color:#111010b0;
+    padding:15px;
+
+}
+#meheader{
+    border-bottom:solid;
+    border-bottom-color:#13131399;
+    border-width:5px;
+    width: 600px;
+    padding-bottom: 10px;
+}
+p{
+    color:beige;
+    font-size: 23px;
+   
+}
+h1{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+#connect{
+   /* border:solid;
+    border-color:black;
+    border-width:5px;*/
+    height: 180px;
+    width:240px;
+    float: left;
+    margin-top: 40px;
+    color: #aa4a4a;
+    background-color:#ff00001c;
+    position:relative;
+    left:900px;
+    bottom:400px;
+
+}
+#footer{
+   /* border:solid;
+    border-color:blue;
+    border-width:5px; */ 
+    height:95px;
+    padding-top: 15px;
+    text-align: center;
+    background-color:#777777;
+    padding-bottom:0px;
+    margin-bottom:0px;
+}
+img{
+    float: left;
+    margin-right: 5px;
+    margin-bottom:5px;
+    height:150px;
+    width:170px;
+}
+#meheader{
+    margin-left:20px;
+}
+#conheader{
+   /* border:solid;
+    border-color:black;
+    border-width:5px;*/
+    font-size:23px;
+    text-align:center;
+    margin-bottom:20;
+}
+#footnote{
+    font-size: 15px;
+    margin-top:30px;
+    color: white;
+}
+
+#github,
+#linked,
+#stackoverflow{
+    height:10px;
+    width: 10px;
+   
+         
+}
+#icons{
+    padding-left:0px;
+    margin-bottom:0;
+}
+#github{
+    margin-left:20px;
+    
+   
+}
+.thumbnail{
+    height:60px;
+    width: 60px;
+    /*border-width:3px;
+    border:solid;
+    border-color:black;*/
+    margin: 7px;
+    position:relative;
+    bottom:30px;
+    right: 20px;
+}
+li:hover{
+    background-color:#ffabab;
+}
+
+.portitem{
+    float: left;
+    height:130px;
+    width:200px;
+}
+.greybox{
+    position:relative;
+    height:550px;
+    width:600px;
+    left:100px;
+    top:50px;
+    background-color:#3535379e;
+}
+#aboutheader{
+    position:absolute;
+    height:60px;
+    border-bottom:solid;
+    width:550px;
+    border-color:#aa4a4a;
+    color:#aa4a4a;
+    font-size:32px;
+    left:10px;
+}
+.aboutcontent{
+    position:relative;
+    height: 400px;
+    width: 595px;
+    top: 100px;
+}
+#mebio{
+    font-size:17px;
+}
+form{
+    color:white;
+}
+#namebox,
+#emailbox,
+#messagebox{
+    width:575px;
+}
+#messagebox{
+    height:400px;
+}
+#submitbutton:hover{
+    background-color:#ffabab
+}
+#connect2{
+    /* border:solid;
+     border-color:black;
+     border-width:5px;*/
+     height: 180px;
+     width:240px;
+     float: left;
+     margin-top: 40px;
+     color: #aa4a4a;
+     background-color:#ff00001c;
+     position:relative;
+     left:1050px;
+     bottom:500px;
+}
+#portheader{
+    border-bottom:solid;
+    border-bottom-color:#13131399;
+    border-width:5px;
+    width: 550px;
+    padding-bottom: 10px;
+    color:#aa4a4a;
+}
+.portimage{
+    height:125px;
+    width:130px;
+}
+.nameofproject{
+    text-align:center;
+    text-decoration:none;
+}
+
+    
+
+
+
