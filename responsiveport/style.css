@@ -1,0 +1,74 @@
+.card-img-top{
+    height:20rem;
+    width:20rem;
+}
+.thumbnail{
+    height:5rem;
+    width:5rem;
+}
+li{display:inline-block;}
+
+#context{
+    text-align:center;
+}
+#c1{background-color:#212529;
+    padding-bottom: 3rem;
+    
+}
+body{background-image:url("https://media.giphy.com/media/3ov9jZfZ5GuNV17mYE/giphy.gif")}
+.picture{
+    margin:10px;
+}
+
+#context,
+#section1{
+    color:white;
+}
+.portpic{
+    height:10rem;
+    width:10rem;
+    margin:2rem;
+}
+#bio{
+    background-color:#00000047
+}
+
+#navContainer{
+    margin-bottom:40px;
+    padding-left: 0px; 
+    padding-right: 0px;
+}
+#footer{color:grey;}
+#headMusic{
+    color:grey;
+    margin-top: 5rem;
+    margin-left: 6rem;
+}
+.message-in{
+    height:50px;
+}
+#porthead{
+    border-bottom:solid;
+    border-color: #ffffff30;
+    padding-bottom: 1rem;
+}
+
+@media screen and (max-width:644px){
+    body{
+        background-image:url('https://media.giphy.com/media/AOSwwqVjNZlDO/giphy.gif')
+    }    
+}
+@media screen and (max-width:768px){
+    #c1{
+        background-image:url('https://media.giphy.com/media/AOSwwqVjNZlDO/giphy.gif');
+    }
+    
+}
+    
+@media screen and (max-width:980px){
+    #bio{
+        color:#00ff21;
+    }
+   }
+
+
