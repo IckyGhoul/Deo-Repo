@@ -1,5 +1,5 @@
 //Create bank of possible words
-var wordBank = ['SNAPE','VOLDEMORT','PATRONUS','PORTKEY','HORCRUX','SLUGHORN','BOWTRUCKLE','HAGRID','WIZENGAMOT','HUFFLEPUFF','RAVENCLAW','SLYTHERIN','BASALISK','HIPPOGRIFF','GRINGOTTS','WIZARD','WEASLEY','HOGWARTS','QUIDDITCH','GRINDLEWALD']
+var wordBank = ['SNAPE','VOLDEMORT','PATRONUS','PORTKEY','HORCRUX','SLUGHORN','BOWTRUCKLE','HAGRID','WIZENGAMOT','UMBRIDGE','SLYTHERIN','WIZARD','HOGWARTS',]
 //choose word randomly  
 var currentWord = wordBank[Math.floor(Math.random()*wordBank.length)]
 //generate underscores based on length of the word
