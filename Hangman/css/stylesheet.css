@@ -1,0 +1,61 @@
+.voldy{
+    height:20rem;
+    width:20rem;
+}
+
+.row{
+    padding:2rem;
+}
+
+.gamearea{
+    background-image:url('https://themisfitscloset.files.wordpress.com/2014/05/hogwarts-castle-hogwarts-7684945-1024-768-1.jpg');
+    color:white;
+}
+
+#logo{
+    height: 15rem;
+    width: 33rem;
+    }
+
+#hanghead{
+    color: #bc8b51;
+    font-size:3rem;
+    position: relative;
+    bottom: 3rem;
+
+}
+#head{
+    background-color:black
+}
+#body{
+    background-color:black
+}
+#instructions{
+    color:white
+}
+#guessesLeft,
+#guessesLeft2
+{
+    float:left;
+}
+#guessesLeft2{
+    padding-left:3rem
+}
+#burnBaby{
+    background-image:url('../assets/burning.jpg');
+    height:40rem;
+}
+#burnBaby{
+    font-size:5rem;
+}
+#victory{
+    font-size:5rem;
+    background-image:url('../assets/victory5.jpg');
+    height:40rem
+}
+
+#wordbox{
+    font-size: 4rem;
+}
+
+
