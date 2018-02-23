@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="crystal.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class ='container'>
+        <div class = 'row'>
+            <div class ='col-lg-12 text-center' id ='header'>
+                <h1>Crystal Collector Game</h1>
+            </div>
+        </div>
+        <div class = 'row'>
+            <div class='col-lg-12' id = 'instructions'>
+                <h3>You will be given a random target score at the start of the game.  By clicking on a crystal, you will add a specific amount of points to your total score.  You win the game by matching your total score to the target score.  You lose the game if your total score goes above the target score.  The values of the crystals are changed every round. </h3>
+            </div>
+        </div>
+        <div class = 'row'>
+            <div class = 'col-lg-3 text-center' ><img src='assets/redcrystal.jpg' class ='crystalPic' id ='redCrystal'></div>
+            <div class = 'col-lg-3 text-center' ><img src='assets/bluecrystal.jpg'class ='crystalPic' id ='blueCrystal'></div>
+            <div class = 'col-lg-3 text-center' ><img src='assets/yellowcrystal.jpg' class ='crystalPic' id ='yellowCrystal'></div>
+            <div class = 'col-lg-3 text-center' ><img src='assets/greencrystal.jpg' class ='crystalPic' id ='greenCrystal'></div>
+        </div>
+        <div class = 'row'>
+            <div class = 'col-lg-6 text-center' id = 'targetScoreHeader'>
+                <h2>Target Number</h2>
+            </div>
+            <div class ='col-lg-6 text-center' id = 'playerScoreHeader'>
+                <h2>Player Score</h2>
+            </div>
+        </div>
+        <div class = 'row'>
+            <div class = 'col-lg-6 text-center'><h3 id ='targetScore'>0</h3></div>
+            <div class = 'col-lg-6 text-center'><h3 id = 'playerScore'>0</h3></div>
+        </div>
+        <div class = 'row'>
+            <div class = 'col-lg-6 text-center' id ='winsHeader'>
+                <h2>Wins</h2>
+            </div>
+            <div class = 'col-lg-6 text-center' id = 'lossesHeader'>
+                <h2>Losses</h2>
+            </div>
+        </div>
+        <div class = 'row'>
+            <div class ='col-lg-6 text-center' ><h3 id = 'wins'>0</h3></div>
+            <div class ='col-lg-6 text-center'><h3 id = 'losses'>0</h3></div>
+        </div>
+    </div>
+    <script src ='crystal.js'></script>
+    
+</body>
