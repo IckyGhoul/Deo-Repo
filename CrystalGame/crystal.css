@@ -6,3 +6,17 @@
     height:10rem;
     width:10rem;
 }
+body{
+    background-image: url('https://media.giphy.com/media/ToMjGpnj5rVPxdXCT6g/giphy.gif');
+   
+}
+ #title{
+    font-size:4rem;
+    color: white;
+    font-style: italic;
+}
+#gameArea{
+    background-color:rgba(0, 0, 0, 0.51);
+    margin-top:5rem;
+    color: #ff00399c
+}

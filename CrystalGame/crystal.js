@@ -71,10 +71,25 @@ function checkWin(){
 	if(playerScore === targetScore){
 	wins++
 	displayWins()
+	var playAgain = confirm(' You Win! Play Again?')
+	if(playAgain===true){
+		playerScore = 0
+		displayPlayerScore()
+		targetScore = genTargetScore()
+		displayTargetScore()
+	}
+
 //Check loss (continuous)
 	}else if(playerScore > targetScore){
 	losses++
 	displayLosses()
+	var playAgain = confirm('You Lose! Play Again?')
+	if(playAgain===true){
+		playerScore = 0
+		displayPlayerScore()
+		targetScore = genTargetScore()
+		displayTargetScore()
+	}
 	}
 }
 //
