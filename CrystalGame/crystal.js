@@ -77,6 +77,10 @@ function checkWin(){
 		displayPlayerScore()
 		targetScore = genTargetScore()
 		displayTargetScore()
+		redCrystalValue = genCrystalValue()
+		blueCrystalValue = genCrystalValue()
+		greenCrystalValue = genCrystalValue()
+		yellowCrystalValue = genCrystalValue()
 	}
 
 //Check loss (continuous)
@@ -89,6 +93,10 @@ function checkWin(){
 		displayPlayerScore()
 		targetScore = genTargetScore()
 		displayTargetScore()
+		redCrystalValue = genCrystalValue()
+		blueCrystalValue = genCrystalValue()
+		greenCrystalValue = genCrystalValue()
+		yellowCrystalValue = genCrystalValue()
 	}
 	}
 }
