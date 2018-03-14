@@ -1,0 +1,34 @@
+#button-row{
+    margin-top:3rem;
+}
+#gif-row{
+    margin-top:2rem;
+}
+.anime-button{
+    color:red;
+    font-family: 'Rammetto One', cursive;
+    margin-left: .5rem;
+
+}
+.size{
+    height:30rem;
+    width:30rem;
+}
+.col-lg-6{
+    margin-top:1rem;
+    margin-bottom:1rem;
+    color:white
+}
+.display-2{
+    font-family: 'Rammetto One', cursive;
+}
+.display-6{
+    font-family: 'Rammetto One', cursive;   
+}
+body{
+    background-color: black;
+    background-image: url('https://jmiandro.files.wordpress.com/2017/12/anime_world21.png?w=1920&h=768&crop=1')
+}
+.container{
+    background:black
+}
