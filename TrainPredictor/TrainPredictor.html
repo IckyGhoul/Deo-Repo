@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Train Predictor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="TrainPredictor.css" />
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Chicle" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class='container'>
+
+        <div class="jumbotron text-center">
+            <h1 class="display-4 header">Derrick's Train Predictor</h1>
+           
+        </div>
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title text-center">
+                    <strong>Current Train Schedule</strong>
+                </h3>
+            </div>
+            <div class="panel-body">
+                <table class="table table-hover" id='train-table'>
+                    <thead id='table-head'>
+                        <tr>
+                            <th>Train Name</th>
+                            <th>Destination</th>
+                            <th>Frequency</th>
+                            <th>Next Arrival</th>
+                            <th>Minutes Away</th>
+                        </tr>
+                    </thead>
+                    <tbody id ='table-body'>
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <form>
+            <div class="form-group">
+                <label for="employee-name-input">Train Name</label>
+                <input class="form-control" id="name-input" type="text">
+            </div>
+            <div class="form-group">
+                <label for="role-input">Destination</label>
+                <input class="form-control" id="destination-input" type="text">
+            </div>
+            <div class="form-group">Frequency(minutes)</label>
+                <input class="form-control" id="frequency-input" type="number">
+            </div>
+            <div>
+                <label for="rate-input">First Train</label>
+                <input class="form-control" id="first-train-input" type="time">
+            </div>
+           
+            <button class="btn btn-primary" id="add-train" type="submit">Add Train</button>
+          
+        </form>
+
+
+
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
+    <script src="TrainPredictor.js"></script> 
+</body>
+
+</html>
