@@ -1,0 +1,105 @@
+
+
+#title-text{
+    font-family: 'Luckiest Guy', cursive;
+    margin:0px;
+    background-color:#000000c4;
+    color:white;
+    font-size:10rem;
+    margin-bottom:4rem;
+}
+body{
+   background: url('images/stars.jpg') bottom center ;
+   background-size:contain;
+  
+   
+}
+img.resize{
+    height:auto;
+    
+}
+#image-holder{
+    background: url('images/infinity.jpg') no-repeat;
+    padding:200px;
+    background-size:cover;
+    
+}
+.header{
+    
+    background-size: cover;
+    background-repeat:no-repeat;
+    border:solid;
+    border-width:10px;
+    border-color:white;;
+   
+}
+.container{
+    padding:0;
+}
+label{
+    font-size: 25px;
+    color:white;
+}
+#survey-tag{
+    font-size:20px;
+    color:white;
+    margin-bottom:2rem;
+}
+
+@media only screen and (max-width:560px){
+   
+   .header{
+      vertical-align: middle;
+   }
+
+}
+#image-container{
+    height:37rem;
+    max-width:45rem;
+
+   
+}
+#play-again{
+    background-color:#b73333;
+}
+.modal-content{
+    border:solid;
+    border-width:2rem;
+    border-color:black;
+}
+#avenger-name{
+    font-size:4.5rem;
+    font-family: 'Luckiest Guy', cursive;
+    color:white;
+}
+.modal-content{
+    background:black;
+}
+.modal-header{
+    font-family: 'Luckiest Guy', cursive;
+    color:white;
+    padding:0rem;
+}
+#take-survey{
+    font-size:5rem;
+    font-family: 'Luckiest Guy', cursive;
+    color:white;
+    background:red;
+}
+#landing-container{
+    margin-top:20rem;
+    border:none;
+}
+#submit-survey{
+    font-family: 'Luckiest Guy', cursive;
+    font-size:2rem;
+    
+}
+.form-control{
+    margin-bottom:3rem;
+    height:4rem;
+    font-size:2rem;
+}
+#submit-survey:hover{
+    background-color:#b73333;
+}

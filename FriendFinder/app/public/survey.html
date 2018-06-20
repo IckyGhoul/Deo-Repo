@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Which Avenger</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+  <link rel='stylesheet' href = 'assets/main.css' type = 'text/css'>
+  <style>
+  </style>
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+  <div class="container text-center header">
+    <div id ='image-holder'>
+        <h1 id='title-text'>Which avenger are you?</h1>
+    </div>
+    
+
+  </div>
+
+
+
+  <!-- personality survey -->
+  <div class="container text-center" >
+    
+    <h4 id='survey-tag'>Take the survey below to find out which avenger you are. All answers are on a 1 - 5 scale.</h3>
+  </div>
+  <div id='survey' class='container'>
+    <form>
+      <div class="form-group" id ='survey-holder'>
+        <label for="sel1"> Superpowers should never be used for personal gain</label>
+        <select class="form-control" id="q1">
+          <option value='1'>1 (Strongly Disagree) </option>
+          <option value='2'>2</option>
+          <option value='3'>3</option>
+          <option value='4'>4</option>
+          <option value='5'>5 (Strongly Agree)</option>
+        </select>
+        <br>
+        <label for="sel1">With great power comes great responsibilty</label>
+        <select class="form-control" id="q2">
+          <option value='1'>1 (Strongly Disagree) </option>
+          <option value='2'>2</option>
+          <option value='3'>3</option>
+          <option value='4'>4</option>
+          <option value='5'>5 (Strongly Agree)</option>
+        </select>
+        <br>
+        <label for="sel1">There is no such thing as good and evil. Right and wrong are subjective.</label>
+        <select class="form-control" id="q3">
+          <option value='1'>1 (Strongly Disagree) </option>
+          <option value='2'>2</option>
+          <option value='3'>3</option>
+          <option value='4'>4</option>
+          <option value='5'>5 (Strongly Agree)</option>
+        </select>
+        <br>
+        <label for="sel1">It is better to be feared than loved. </label>
+        <select class="form-control" id="q4">
+          <option value='1'>1 (Strongly Disagree)</option>
+          <option value='2'>2</option>
+          <option value='3'>3</option>
+          <option value='4'>4</option>
+          <option value='5'>5 (Strongly Agree)</option>
+        </select>
+        <br>
+        <label for="sel1">The needs of the many outweigh the needs of the few.</label>
+        <select class="form-control" id="q5">
+          <option value='1'>1 (Strongly Disagree) </option>
+          <option value='2'>2</option>
+          <option value='3'>3</option>
+          <option value='4'>4</option>
+          <option value='5'>5 (Strongly Agree)</option>
+        </select>
+        <br>
+        <label for="sel1">If aliens make contact, our first action should be to prepare for war.</label>
+        <select class="form-control" id="q6">
+          <option value='1'>1 (Strongly Disagree)</option>
+          <option value='2'>2</option>
+          <option value='3'>3</option>
+          <option value='4'>4</option>
+          <option value='5'>5 (Strongly Agree)</option>
+        </select>
+        <br>
+        <label for="sel1">Justice and revenge are one and the same.</label>
+        <select class="form-control" id="q7">
+          <option value='1'>1 (Strongly Disagree)</option>
+          <option value='2'>2</option>
+          <option value='3'>3</option>
+          <option value='4'>4</option>
+          <option value='5'>5 (Strongly Agree)</option>
+        </select>
+        <br>
+        <label for="sel1">Humanity is headed in the right direction.</label>
+        <select class="form-control" id="q8">
+          <option value='1'>1 (Strongly Disagree)</option>
+          <option value='2'>2</option>
+          <option value='3'>3</option>
+          <option value='4'>4</option>
+          <option value='5'>5 (Strongly Agree)</option>
+        </select>
+        <br>
+        <label for="sel1">Free will is an illusion.</label>
+        <select class="form-control" id="q9">
+          <option value='1'>1 (Strongly Disagree)</option>
+          <option value='2'>2</option>
+          <option value='3'>3</option>
+          <option value='4'>4</option>
+          <option value='5'>5 (Strongly Agree)</option>
+        </select>
+        <br>
+        <label for="sel1">It is easier to hate than to love.</label>
+        <select class="form-control" id="q10">
+          <option value='1'>1 (Strongly Disagree)</option>
+          <option value='2'>2</option>
+          <option value='3'>3</option>
+          <option value='4'>4</option>
+          <option value='5'>5 (Strongly Agree)</option>
+        </select>
+        <br>
+        <button type="submit" id='submit-survey' class="btn btn-default" data-toggle="modal" data-target="#exampleModalCenter">Submit</button>
+       
+
+      </div>
+    </form>
+  </div>
+
+
+
+
+
+  <!-- Footer -->
+  <footer class="text-center">
+    <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+      <span class="glyphicon glyphicon-chevron-up"></span>
+    </a>
+    <br>
+    <br>
+
+  </footer>
+
+  <!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="exampleModalLongTitle">You are...</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-center">
+       <h1 id ='avenger-name'></h1>
+       <img id ='image-container'>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" id='play-again'data-dismiss='modal' class="btn btn-primary">Take Survey Again!</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <script>
+    $(document).ready(function () {
+
+      // Initialize Tooltip
+      $('[data-toggle="tooltip"]').tooltip();
+
+      // Add smooth scrolling to all links in navbar + footer link
+      $(".navbar a, footer a[href='#myPage']").on('click', function (event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 900, function () {
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+
+          });
+        } // End if
+      });
+    });
+    
+
+
+
+  </script>
+  <script src='main.js'></script>
+
+</body>
+
+</html>
